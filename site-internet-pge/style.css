@@ -2,45 +2,44 @@
 
 h1{
 	color: inherit;
-	background-color: purple;
 }
 h2{
 	color: rgb(255,0,10);
 	font-size:50px; 
-	background-color: blue;
 }
 body{ 
-	background-color: #FTF9FC;
+	background-color: #b90e0e;
 	text-align: center;
-	color: #575F70;
+	color: rgb(255 0 10);
 	font-family: 'Lora', serif;
-	font-size: 17px;
+	font-size: 20px;
 	font-weight: lighter;
 	border:solid 1px ;
+	background-image: url(https://img.freepik.com/vecteurs-libre/fond-rouge-aquarelle-valentine-rouge_1340-4028.jpg?size=338&ext=jpg&ga=GA1.2.1930910950.1628294400);
 }
 
 a {
-	text-decoration: underline;
+	text-decoration: none;
 }
 div{ width: 75%;
-	padding: 24px;
-	margin:24px auto;
+	padding: 20px;
+	margin:25px auto;
 	background-color:white ;
 	border: solid 1px white;
-	border-radius: 8px;
-	box-shadow: 4px 6px 0px 0px #00000030
+	border-radius: 5px;
+	box-shadow: 1px 2px 0px 0px #00000030
 	 }
 
 img {
 	border-radius: 50%
 }
 .button-blue {
-	background-color: blue;
+	background-color: red;
 	color: white;
 	font-weight: bold;
 	padding: 16px;
 	border-radius: 6px;
-	border: 1px blue solid;
+	border: 1px red solid;
 	margin: 24px auto;
 	display: block;
 	width: 20%;
@@ -48,17 +47,17 @@ img {
 }
 .button-blue:hover{
 	background-color: white;
-	color: blue;
+	color: red;
 	transition: 1s;
 }
 
 i{
 	font-size: 46px;
-	color:rgba(0, 0, 0, .4);
+	color: black;
 }
 
 i:hover{
-	color: black;
+	color: rgb(255 0 10);
 	transition: 1s;
 }
 #list-inline li{
@@ -68,4 +67,8 @@ i:hover{
 
 #list-inline {
 	padding: 0;
+}
+
+p{
+	color: black; 
 }
